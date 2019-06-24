@@ -7660,7 +7660,7 @@ CREATE TABLE `vtiger_module_dashboard_widgets` (
 
 LOCK TABLES `vtiger_module_dashboard_widgets` WRITE;
 /*!40000 ALTER TABLE `vtiger_module_dashboard_widgets` DISABLE KEYS */;
-INSERT INTO `vtiger_module_dashboard_widgets` VALUES (1,56,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"1\"}',NULL,2,NULL),(5,62,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"4\"}',NULL,2,NULL),(6,64,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"2\"}',NULL,2,NULL),(8,59,1,NULL,NULL,'null','{\"row\":\"3\",\"col\":\"1\"}',NULL,2,NULL),(11,57,6,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"1\"}',NULL,4,NULL),(13,56,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"1\"}',NULL,1,NULL),(14,58,1,NULL,NULL,'null','{\"row\":\"2\",\"col\":\"2\"}',NULL,1,NULL),(15,58,1,NULL,NULL,'null','{\"row\":\"2\",\"col\":\"2\"}',NULL,2,NULL),(16,63,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"2\"}',NULL,1,NULL),(17,57,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"3\"}',NULL,1,NULL),(19,57,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"3\"}',NULL,2,NULL),(20,56,8,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"1\"}',NULL,6,NULL),(23,57,8,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"2\"}',NULL,6,NULL),(24,59,8,NULL,NULL,'null','{\"row\":\"2\",\"col\":\"2\"}',NULL,6,NULL),(25,58,8,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"3\"}',NULL,6,NULL);
+INSERT INTO `vtiger_module_dashboard_widgets` VALUES (1,56,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"1\"}',NULL,2,NULL),(5,62,1,NULL,NULL,'null','{\"row\":\"2\",\"col\":\"2\"}',NULL,2,NULL),(6,64,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"2\"}',NULL,2,NULL),(8,59,1,NULL,NULL,'null','{\"row\":\"4\",\"col\":\"1\"}',NULL,2,NULL),(11,57,6,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"1\"}',NULL,4,NULL),(13,56,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"1\"}',NULL,1,NULL),(14,58,1,NULL,NULL,'null','{\"row\":\"3\",\"col\":\"1\"}',NULL,1,NULL),(15,58,1,NULL,NULL,'null','{\"row\":\"3\",\"col\":\"1\"}',NULL,2,NULL),(16,63,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"2\"}',NULL,1,NULL),(17,57,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"3\"}',NULL,1,NULL),(19,57,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"3\"}',NULL,2,NULL),(20,56,8,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"1\"}',NULL,6,NULL),(23,57,8,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"2\"}',NULL,6,NULL),(24,59,8,NULL,NULL,'null','{\"row\":\"2\",\"col\":\"2\"}',NULL,6,NULL),(25,58,8,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"3\"}',NULL,6,NULL);
 /*!40000 ALTER TABLE `vtiger_module_dashboard_widgets` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -14541,4 +14541,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-06-24 19:59:31
+-- Dump completed on 2019-06-24 20:00:44
