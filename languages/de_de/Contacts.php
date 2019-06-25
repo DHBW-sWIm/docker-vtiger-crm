@@ -10,8 +10,8 @@
 $languageStrings = array(
 	'Contacts'                     => 'Personen'                    , 
 	'SINGLE_Contacts'              => 'Person'                      , 
-	'LBL_ADD_RECORD'               => 'Add Contact'                 , 
-	'LBL_RECORDS_LIST'             => 'Contacts List'               , 
+	'LBL_ADD_RECORD'               => 'Kontakt'                 , 
+	'LBL_RECORDS_LIST'             => 'Kontakt List'               , 
 	'LBL_CONTACT_INFORMATION'      => 'Person'                      , 
 	'LBL_CUSTOMER_PORTAL_INFORMATION' => 'Kundenportal'                , 
 	'LBL_IMAGE_INFORMATION'        => 'Bild vom Kontakt'            , 
@@ -40,7 +40,7 @@ $languageStrings = array(
 	'Other Zip'                    => 'weitere PLZ'                 , 
 	'Other Country'                => 'weiteres Land'               , 
 	'Other Po Box'                 => 'Other P.O. Box'              , 
-	'Contact Image'                => 'Photo'                       , 
+	'Contact Image'                => 'Foto'                       , 
 	'Mr.'                          => 'Sehr geehrter Herr'          , 
 	'Ms.'                          => 'Sehr geehrte Frau'           , 
 	'Mrs.'                         => 'Sehr geehrte Frau'           , 
@@ -52,9 +52,9 @@ $languageStrings = array(
     'Support End Date'             => 'Support-Ende Datum'          ,
 	'LBL_TRANSACTIONS' => 'Geschäfte',
 
-  'Other Phone' => 'Sekundäre Telefon',
-  'Email' => 'Primäre E-Mail',
-  'Secondary Email' => 'Sekundäre E-Mail',
+  'Other Phone' => 'Sekundäre Telefonnummer',
+  'Email' => 'Primäre E-Mail-Adresse',
+  'Secondary Email' => 'Sekundäre E-Mail-Adresse',
 
 );
 $jsLanguageStrings = array(
