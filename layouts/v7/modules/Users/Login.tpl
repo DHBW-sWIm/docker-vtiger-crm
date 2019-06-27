@@ -166,7 +166,7 @@
 			outline: 0;
 		}
 		.buttonBlue {
-			background-image: linear-gradient(to bottom, #35aa47 0px, #35aa47 100%)
+			background-image: #e2001a;
 		}
 		.ripples {
 			position: absolute;
@@ -201,11 +201,14 @@
 				opacity: 0;
 			}
 		}
+		.transparent{
+			background-color: none;
+		}
 	</style>
 
 	<span class="app-nav"></span>
 	<div class="col-lg-12">
-		<div class="col-lg-4 col-lg-offset-4">
+		<div class="col-lg-4 center transparent">
 			<div class="loginDiv widgetHeight">
 				<img class="img-responsive user-logo" src="layouts/v7/resources/Images/vtiger.png">
 				<div>
