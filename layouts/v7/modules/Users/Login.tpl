@@ -15,7 +15,8 @@
 			background-position: center;
 			background-size: cover;
 			width: 100%;
-			height: 96%;
+			height: 100%;
+			min-height: 100%
 			background-repeat: no-repeat;
 		}
 		hr {
@@ -121,6 +122,8 @@
 			margin-top: 0px;
 		}
 		.footer {
+			position: absolute;
+			bottom: 0;
 			background-color: #fbfbfb;
 			height:26px;
 		}
@@ -208,7 +211,7 @@
 
 	<span class="app-nav"></span>
 	<div class="col-lg-12">
-		<div class="col-lg-4 center transparent">
+		<div class="col-lg-4 col-lg-4 col-lg-offset-4">
 			<div class="loginDiv widgetHeight">
 				<img class="img-responsive user-logo" src="layouts/v7/resources/Images/vtiger.png">
 				<div>
