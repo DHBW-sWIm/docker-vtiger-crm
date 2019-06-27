@@ -88,7 +88,7 @@
 			margin-left: 20px;
 		}
 		.user-logo {
-			height: 110px;
+			height: 320px;
 			margin: 0 auto;
 			padding-top: 40px;
 			padding-bottom: 20px;
