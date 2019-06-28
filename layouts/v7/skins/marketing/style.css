@@ -981,7 +981,7 @@ input[type="password"].inputElement {
   opacity: 1;
 }
 .modules-menu ul li.active {
-  background: #010101;
+  background: #5c6971;
 }
 .modules-menu ul li.active a {
   opacity: 1;
@@ -1561,7 +1561,7 @@ input[type=checkbox]:checked {
   width: 85%;
   text-shadow: none;
   padding: 3px;
-  backgroud: #e2001a;
+  background: #e2001a;
   border: #e2001a;
 }
 .relatedContents .listview-table tr.searchRow th.inline-search-btn button {
@@ -4724,7 +4724,7 @@ li.dashboardWidget {
   cursor: move;
 }
 .dashBoardContainer .tabContainer {
-  margin-top: 35px;
+  margin-top: 10px;
 }
 .dashBoardContainer .tabContainer ul {
   margin: 0 inherit;
