@@ -88,7 +88,7 @@
 			margin-left: 20px;
 		}
 		.user-logo {
-			height: 320px;
+			height: 220px;
 			margin: 0 auto;
 			padding-top: 40px;
 			padding-bottom: 20px;
@@ -122,8 +122,6 @@
 			margin-top: 0px;
 		}
 		.footer {
-			position: absolute;
-			bottom: 0;
 			background-color: #fbfbfb;
 			height:26px;
 		}
