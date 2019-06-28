@@ -125,6 +125,10 @@
 			background-color: #fbfbfb;
 			height:26px;
 		}
+		.app-footer {
+			position: absolute;
+			bottom: 0;
+		}
 		.bar {
 			position: relative;
 			display: block;
