@@ -163,7 +163,7 @@
 			-webkit-font-smoothing: antialiased;
 			text-align: center;
 			letter-spacing: 1px;
-			background: #35aa47;
+			background: #e2001a;
 			border: 0;
 			cursor: pointer;
 			transition: all 0.15s ease;
