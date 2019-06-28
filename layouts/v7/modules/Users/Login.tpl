@@ -128,6 +128,7 @@
 		.app-footer {
 			position: absolute;
 			bottom: 0;
+			width: 100%;
 		}
 		.bar {
 			position: relative;
@@ -213,8 +214,8 @@
 
 	<span class="app-nav"></span>
 	<div class="col-lg-12">
-		<div class="col-lg-4 col-lg-4 col-lg-offset-4">
-			<div class="loginDiv widgetHeight">
+		<div class="col-lg-4 col-lg-offset-4">
+			<div class="loginDiv">
 				<img class="img-responsive user-logo" src="layouts/v7/resources/Images/vtiger.png">
 				<div>
 					<span class="{if !$ERROR}hide{/if} failureMessage" id="validationMessage">{$MESSAGE}</span>
