@@ -8,15 +8,15 @@
  * All Rights Reserved.
  ************************************************************************************/
 $languageStrings = array(
-    'Calendar'                     => 'Calendar'                     , 
-	'SINGLE_Calendar'              => 'Aufgabe'                     , 
-	'LBL_ADD_TASK'                 => 'Add Aufgabe'                    , 
-	'LBL_ADD_EVENT'                => 'erstelle Ereignis'           , 
+    'Calendar'                     => 'Kalendar'                     , 
+	'SINGLE_Calendar'              => 'Kalender'                     , 
+	'LBL_ADD_TASK'                 => 'Aufgabe erstellen'                    , 
+	'LBL_ADD_EVENT'                => 'Ereignis erstellen'           , 
 	'LBL_RECORDS_LIST'             => 'Listenansicht'               , 
 	'LBL_EVENTS'                   => 'Ereignisse'                  , 
 	'LBL_TODOS'                    => 'Aufgabe'                    , 
-	'LBL_CALENDAR_SETTINGS'        => 'Calendar Settings'           , 
-	'LBL_CALENDAR_SHARING'         => 'Calendar Sharing'            , 
+	'LBL_CALENDAR_SETTINGS'        => 'Kalendereinstellungen'           , 
+	'LBL_CALENDAR_SHARING'         => 'Kalenderfreigabe
 	'LBL_DEFAULT_EVENT_DURATION'   => 'Default Event Duration'      , 
 	'LBL_CALL'                     => 'Call'                        , 
 	'LBL_OTHER_EVENTS'             => 'Other Events'                , 
