@@ -8,13 +8,13 @@
  * All Rights Reserved.
  ************************************************************************************/
 $languageStrings = array(
-	'Leads'                        => 'Interessenten'                       , 
-	'SINGLE_Leads'                 => 'Interessent'                        , 
-	'LBL_RECORDS_LIST'             => 'Interessenten Liste'                  , 
-	'LBL_ADD_RECORD'               => 'Interessent hinzufügen'                    , 
-	'LBL_LEAD_INFORMATION'         => 'Interessent'                        , 
-	'Lead No'                      => 'Interessent Nr.'                    , 
-	'Company'                      => 'Organisation'                , 
+	'Leads'                        => 'Potentielle Studenten'                       , 
+	'SINGLE_Leads'                 => 'Potentieller Student'                        , 
+	'LBL_RECORDS_LIST'             => 'Liste der potentiellen Studenten'                  , 
+	'LBL_ADD_RECORD'               => 'Potentiellen Student hinzufügen'                    , 
+	'LBL_LEAD_INFORMATION'         => 'Informationen zu potentiellem Student'                        , 
+	'Lead No'                      => 'Potentieller Student Nr.'                    , 
+	'Company'                      => 'Dualer Partner'                , 
 	'Designation'                  => 'Funktion'                    , 
 	'Website'                      => 'Webseite'                    , 
 	'Industry'                     => 'Branche'                     , 
@@ -30,7 +30,7 @@ $languageStrings = array(
 	'Cold'                         => 'kalt'                        , 
 	'Contact in Future'            => 'in der Zukunft kontaktieren' , 
 	'Contacted'                    => 'kontaktiert'                 , 
-	'Hot'                          => 'heiss'                       , 
+	'Hot'                          => 'heiß'                       , 
 	'Junk Lead'                    => 'wertloser Lead'              , 
 	'Lost Lead'                    => 'Lead verloren'               , 
 	'Not Contacted'                => 'Nicht kontaktiert'           , 
@@ -38,22 +38,22 @@ $languageStrings = array(
 	'Qualified'                    => 'qualifiziert'                , 
 	'Warm'                         => 'warm'                        , 
 	'LBL_CONVERT_LEAD'             => 'Lead umwandeln:'             , 
-	'LBL_TRANSFER_RELATED_RECORD'  => 'Transfer related record to'  , 
-	'LBL_CONVERT_LEAD_ERROR'       => 'You have to enable either Organization or Contact to convert the Lead', 
+	'LBL_TRANSFER_RELATED_RECORD'  => 'Bezugsdatensatz übertragen an'  , 
+	'LBL_CONVERT_LEAD_ERROR'       => 'Sie müssen entweder Organisation oder Kontakt aktivieren, um den Lead umzuwandeln', 
 	'LBL_LEADS_FIELD_MAPPING_INCOMPLETE' => 'Alle Pflichtfelder sind nicht zugeordnet', 
-	'LBL_LEADS_FIELD_MAPPING'      => 'Zuordnung der benutzerdefinierten Lead Felder', 
+	'LBL_LEADS_FIELD_MAPPING'      => 'Zuordnung der benutzerdefinierten potentieller-Student-Felder', 
 	'LBL_CUSTOM_FIELD_MAPPING'     => 'Lead-Konvertierung Datenzuordnung'          , 
-    'LBL_IMAGE_INFORMATION' => 'Profil Bild',
-    'Lead Image' => 'Lead Bild',
+    'LBL_IMAGE_INFORMATION' => 'Profilbild',
+    'Lead Image' => 'Bild des potentiellen Studenten',
 	
 
-  'Phone' => 'Primäre Telefon',
+  'Phone' => 'Telefon',
   'Secondary Email' => 'Sekundäre E-Mail',
   'Email' => 'Primäre E-Mail',
 
 );
 $jsLanguageStrings = array(
-	'JS_SELECT_CONTACTS'           => 'Select Contacts to proceed'  , 
-	'JS_SELECT_ORGANIZATION'       => 'Select Organization to proceed', 
-	'JS_SELECT_ORGANIZATION_OR_CONTACT_TO_CONVERT_LEAD' => 'Conversion requires selection of Contact or Organization', 
+	'JS_SELECT_CONTACTS'           => 'Kontakt auswählen um fortzufahren'  , 
+	'JS_SELECT_ORGANIZATION'       => 'Dualen Partner auswählen um fortzufahren', 
+	'JS_SELECT_ORGANIZATION_OR_CONTACT_TO_CONVERT_LEAD' => 'Die Konvertierung erfordert die Auswahl von Kontakt oder dualen Partner', 
 );
