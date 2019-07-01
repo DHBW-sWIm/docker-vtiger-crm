@@ -21,7 +21,7 @@ $languageStrings = array(
 	'LTFAQ'                        => 'meine Wissensbasis'          , 
 	'UA'                           => 'aktuelle Aktivitäten'       , 
 	'PA'                           => 'unerledigte Aktivitäten'    , 
-        'Home'                         => 'Armaturenbrett'               ,
+        'Home'                         => 'Dashboard'               ,
 
   'LBL_SAVE_ORDER' => 'Bestellung speichern',
   'LBL_ADD_NEW_DASHBOARD' => 'Fügen Sie ein neues Dashboard hinzu',
