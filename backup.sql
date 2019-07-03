@@ -10900,7 +10900,7 @@ CREATE TABLE `vtiger_role` (
 
 LOCK TABLES `vtiger_role` WRITE;
 /*!40000 ALTER TABLE `vtiger_role` DISABLE KEYS */;
-INSERT INTO `vtiger_role` VALUES ('H1','Organization','H1',0,1),('H2','Scientific Management','H1::H2',1,1),('H3','Vice President','H1::H2::H3',2,1),('H4','Sales Manager','H1::H2::H3::H4',3,1),('H5','Sales Person','H1::H2::H3::H4::H5',4,1);
+INSERT INTO `vtiger_role` VALUES ('H1','Organization','H1',0,1),('H2','CAS Mitarbeiter','H1::H2',1,1),('H3','Studiengangsleitung','H1::H2::H3',2,1),('H4','Sales Manager','H1::H2::H3::H4',3,1),('H5','Sales Person','H1::H2::H3::H4::H5',4,1);
 /*!40000 ALTER TABLE `vtiger_role` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -14541,4 +14541,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-07-03 11:41:35
+-- Dump completed on 2019-07-03 11:42:49
