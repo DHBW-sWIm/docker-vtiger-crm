@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2019-07-09 12:40:14
+<?php /* Smarty version Smarty-3.1.7, created on 2019-07-09 12:50:19
          compiled from "/var/www/html/mastercrm-vtiger/includes/runtime/../../layouts/v7/modules/Vtiger/partials/SidebarAppMenu.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:7366640245d07628feddae4-58057089%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e5cb6aed854e7d1e7cb4b5aa2e04aeefcfa3897c' => 
     array (
       0 => '/var/www/html/mastercrm-vtiger/includes/runtime/../../layouts/v7/modules/Vtiger/partials/SidebarAppMenu.tpl',
-      1 => 1562675851,
+      1 => 1562676508,
       2 => 'file',
     ),
   ),
@@ -150,7 +150,7 @@ $_smarty_tpl->tpl_vars['moduleModel']->_loop = true;
  $_smarty_tpl->tpl_vars['moduleName']->value = $_smarty_tpl->tpl_vars['moduleModel']->key;
 ?>
 									<?php $_smarty_tpl->tpl_vars['translatedModuleLabel'] = new Smarty_variable(vtranslate($_smarty_tpl->tpl_vars['moduleModel']->value->get('label'),$_smarty_tpl->tpl_vars['moduleName']->value), null, 0);?>
-									<span class="app-name textOverflowEllipsis"> <?php echo $_smarty_tpl->tpl_vars['translatedModuleLabel']->value;?>
+									<span class="app-name textOverflowEllipsis"> <?php echo strtoupper($_smarty_tpl->tpl_vars['translatedModuleLabel']->value);?>
 </span>
 								<?php } ?>
 							</div>
