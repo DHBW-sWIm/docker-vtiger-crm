@@ -72,7 +72,7 @@
 								<span class="app-icon-list fa {$APP_IMAGE_MAP.$APP_NAME}"></span>
 								{foreach item=moduleModel key=moduleName from=$APP_GROUPED_MENU[$APP_NAME]}
 									{assign var='translatedModuleLabel' value=vtranslate($moduleModel->get('label'),$moduleName )}
-									<span class="app-name textOverflowEllipsis"> {$translatedModuleLabel}</span>
+									<span class="app-name textOverflowEllipsis"> {strtoupper($translatedModuleLabel)}</span>
 								{/foreach}
 							</div>
 						</div>
