@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2019-07-09 12:07:15
+<?php /* Smarty version Smarty-3.1.7, created on 2019-07-09 12:19:37
          compiled from "/var/www/html/mastercrm-vtiger/includes/runtime/../../layouts/v7/modules/Vtiger/partials/SidebarAppMenu.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:7366640245d07628feddae4-58057089%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e5cb6aed854e7d1e7cb4b5aa2e04aeefcfa3897c' => 
     array (
       0 => '/var/www/html/mastercrm-vtiger/includes/runtime/../../layouts/v7/modules/Vtiger/partials/SidebarAppMenu.tpl',
-      1 => 1562673874,
+      1 => 1562674753,
       2 => 'file',
     ),
   ),
@@ -120,6 +120,32 @@ $_smarty_tpl->tpl_vars['moduleModel']->_loop = true;
 								</li>
 							<?php } ?>
 						</ul>
+					</div>
+				<?php }elseif(count($_smarty_tpl->tpl_vars['APP_GROUPED_MENU']->value[$_smarty_tpl->tpl_vars['APP_NAME']->value])>0){?>
+					<div class="dropdown app-modules-dropdown-container">
+						<?php  $_smarty_tpl->tpl_vars['APP_MENU_MODEL'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['APP_MENU_MODEL']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['APP_GROUPED_MENU']->value[$_smarty_tpl->tpl_vars['APP_NAME']->value]; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['APP_MENU_MODEL']->key => $_smarty_tpl->tpl_vars['APP_MENU_MODEL']->value){
+$_smarty_tpl->tpl_vars['APP_MENU_MODEL']->_loop = true;
+?>
+							<?php $_smarty_tpl->tpl_vars['FIRST_MENU_MODEL'] = new Smarty_variable($_smarty_tpl->tpl_vars['APP_MENU_MODEL']->value, null, 0);?>
+							<?php if ($_smarty_tpl->tpl_vars['APP_MENU_MODEL']->value){?>
+								<?php break 1?>
+							<?php }?>
+						<?php } ?>
+						<div class="menu-item app-item dropdown-toggle app-item-color-<?php echo $_smarty_tpl->tpl_vars['APP_NAME']->value;?>
+" data-app-name="<?php echo $_smarty_tpl->tpl_vars['APP_NAME']->value;?>
+" id="<?php echo $_smarty_tpl->tpl_vars['APP_NAME']->value;?>
+_modules_dropdownMenu" data-default-url="<?php echo $_smarty_tpl->tpl_vars['FIRST_MENU_MODEL']->value->getDefaultUrl();?>
+&app=<?php echo $_smarty_tpl->tpl_vars['APP_NAME']->value;?>
+">
+							<div class="menu-items-wrapper app-menu-items-wrapper">
+								<span class="app-icon-list fa <?php echo $_smarty_tpl->tpl_vars['APP_IMAGE_MAP']->value[$_smarty_tpl->tpl_vars['APP_NAME']->value];?>
+"></span>
+								<span class="app-name textOverflowEllipsis"> <?php echo vtranslate("LBL_".($_smarty_tpl->tpl_vars['APP_NAME']->value));?>
+</span>
+							</div>
+						</div>
 					</div>
 				<?php }?>
 			<?php } ?>
