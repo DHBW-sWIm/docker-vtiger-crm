@@ -16,7 +16,7 @@ $languageStrings = array(
 	'LBL_EVENTS'                   => 'Ereignisse'                  , 
 	'LBL_TODOS'                    => 'Aufgabe'                    , 
 	'LBL_CALENDAR_SETTINGS'        => 'Kalendereinstellungen'        , 
-	'LBL_CALENDAR_SHARING'         => 'Kalenderfreigabe'
+	'LBL_CALENDAR_SHARING'         => 'Kalenderfreigabe',
 	'LBL_DEFAULT_EVENT_DURATION'   => 'Standard Ereignisdauer'      , 
 	'LBL_CALL'                     => 'Anruf'                        , 
 	'LBL_OTHER_EVENTS'             => 'Weitere Ereignisse'                , 
@@ -24,7 +24,7 @@ $languageStrings = array(
 	'LBL_SELECT_USERS'             => 'Benutzer auswählen'                , 
 	'LBL_EVENT_OR_TASK'            => 'Termin oder Aufgabe'                ,
 	'LBL_TASK_INFORMATION'         => 'Aufgabeninformationen'         , 
-    'LBL_EVENT_INFORMATION'        => 'Weitere Informationen zum Ereignis'               ,
+    'LBL_EVENT_INFORMATION'        => 'Weitere Informationen zum Ereignis',
 	'Subject'                      => 'Betreff'                     , 
 	'Start Date & Time'            => 'Termin beginnt'              , 
 	'Activity Type'                => 'Aktivitätstyp'             , 
@@ -196,16 +196,16 @@ $jsLanguageStrings = array(
 	'LBL_FEB' => 'Feb',
 	'LBL_MAR' => 'Mar',
 	'LBL_APR' => 'Apr',
-	'LBL_MAY' => 'Mai'
+	'LBL_MAY' => 'Mai',
 	'LBL_JUN' => 'Jun',
 	'LBL_JUL' => 'Jul',
 	'LBL_AUG' => 'Aug',
 	'LBL_SEP' => 'Sep',
 	'LBL_OCT' => 'Ok',
 	'LBL_NOV' => 'Nov',
-	'LBL_DEC' => 'Dez'
+	'LBL_DEC' => 'Dez',
 	
-	'LBL_ALL_DAY' => 'Ganztägig'
+	'LBL_ALL_DAY' => 'Ganztägig',
 	//End
 	
 	//Fixing colors for Shared Calendar and My Calendar
