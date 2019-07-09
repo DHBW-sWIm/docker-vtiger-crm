@@ -59,6 +59,21 @@
 							{/foreach}
 						</ul>
 					</div>
+				{elseif count($APP_GROUPED_MENU.$APP_NAME) gt 0}
+					<div class="dropdown app-modules-dropdown-container">
+						{foreach item=APP_MENU_MODEL from=$APP_GROUPED_MENU.$APP_NAME}
+							{assign var=FIRST_MENU_MODEL value=$APP_MENU_MODEL}
+							{if $APP_MENU_MODEL}
+								{break}
+							{/if}
+						{/foreach}
+						<div class="menu-item app-item dropdown-toggle app-item-color-{$APP_NAME}" data-app-name="{$APP_NAME}" id="{$APP_NAME}_modules_dropdownMenu" data-default-url="{$FIRST_MENU_MODEL->getDefaultUrl()}&app={$APP_NAME}">
+							<div class="menu-items-wrapper app-menu-items-wrapper">
+								<span class="app-icon-list fa {$APP_IMAGE_MAP.$APP_NAME}"></span>
+								<span class="app-name textOverflowEllipsis"> {vtranslate("LBL_$APP_NAME")}</span>
+							</div>
+						</div>
+					</div>
 				{/if}
 			{/foreach}
 			<div class="app-list-divider"></div>
