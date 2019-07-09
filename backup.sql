@@ -13500,6 +13500,7 @@ CREATE TABLE `vtiger_user_module_preferences` (
 
 LOCK TABLES `vtiger_user_module_preferences` WRITE;
 /*!40000 ALTER TABLE `vtiger_user_module_preferences` DISABLE KEYS */;
+INSERT INTO `vtiger_user_module_preferences` VALUES (8,7,1);
 /*!40000 ALTER TABLE `vtiger_user_module_preferences` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -14541,4 +14542,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-07-09 18:54:09
+-- Dump completed on 2019-07-09 18:55:24
