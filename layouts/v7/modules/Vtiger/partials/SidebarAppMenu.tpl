@@ -70,7 +70,10 @@
 						<div class="menu-item app-item dropdown-toggle app-item-color-{$APP_NAME}" data-app-name="{$APP_NAME}" id="{$APP_NAME}_modules_dropdownMenu" data-default-url="{$FIRST_MENU_MODEL->getDefaultUrl()}&app={$APP_NAME}">
 							<div class="menu-items-wrapper app-menu-items-wrapper">
 								<span class="app-icon-list fa {$APP_IMAGE_MAP.$APP_NAME}"></span>
-								<span class="app-name textOverflowEllipsis"> {vtranslate("LBL_$APP_NAME")}</span>
+								{foreach item=moduleModel key=moduleName from=$APP_GROUPED_MENU[$APP_NAME]}
+									{assign var='translatedModuleLabel' value=vtranslate($moduleModel->get('label'),$moduleName )}
+									<span class="app-name textOverflowEllipsis"> {$translatedModuleLabel}</span>
+								{/foreach}
 							</div>
 						</div>
 					</div>
