@@ -466,7 +466,7 @@ body {
   vertical-align: middle;
 }
 .app-menu {
-  width: 230px;
+  width: 260px;
   height: 100%;
   padding-top: 0;
   padding-bottom: 50px;
@@ -584,7 +584,7 @@ a.menu-item:hover {
   height: 100vh;
   font-size: 1.2em;
   overflow-x: hidden;
-  background-color: #2C3B49;
+  background-color: #e2001a;
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
