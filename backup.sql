@@ -5366,7 +5366,7 @@ CREATE TABLE `vtiger_group2role` (
 
 LOCK TABLES `vtiger_group2role` WRITE;
 /*!40000 ALTER TABLE `vtiger_group2role` DISABLE KEYS */;
-INSERT INTO `vtiger_group2role` VALUES (2,'H4'),(3,'H2'),(4,'H3');
+INSERT INTO `vtiger_group2role` VALUES (2,'H4'),(3,'H2'),(4,'H3'),(17,'H2');
 /*!40000 ALTER TABLE `vtiger_group2role` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -5418,7 +5418,7 @@ CREATE TABLE `vtiger_groups` (
 
 LOCK TABLES `vtiger_groups` WRITE;
 /*!40000 ALTER TABLE `vtiger_groups` DISABLE KEYS */;
-INSERT INTO `vtiger_groups` VALUES (2,'Team Selling','Group Related to Sales'),(3,'Marketing Group','Group Related to Marketing Activities'),(4,'Support Group','Group Related to providing Support to Customers');
+INSERT INTO `vtiger_groups` VALUES (2,'Team Selling','Group Related to Sales'),(3,'Marketing Group','Group Related to Marketing Activities'),(4,'Support Group','Group Related to providing Support to Customers'),(17,'CAS','	');
 /*!40000 ALTER TABLE `vtiger_groups` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -13674,7 +13674,7 @@ CREATE TABLE `vtiger_users_seq` (
 
 LOCK TABLES `vtiger_users_seq` WRITE;
 /*!40000 ALTER TABLE `vtiger_users_seq` DISABLE KEYS */;
-INSERT INTO `vtiger_users_seq` VALUES (16);
+INSERT INTO `vtiger_users_seq` VALUES (17);
 /*!40000 ALTER TABLE `vtiger_users_seq` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -14543,4 +14543,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-07-20  7:17:43
+-- Dump completed on 2019-07-20  7:18:59
