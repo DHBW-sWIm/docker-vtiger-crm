@@ -84,7 +84,7 @@ include 'hostname.php';
 // url for customer portal (Example: http://vtiger.com/portal)
 $PORTAL_URL = $site_URL.'/customerportal';
 // root directory path
-$root_directory = '/var/www/html/mastercrm-vtiger';
+$root_directory = '/var/www/html/mastercrm-vtiger/';
 
 // cache direcory path
 $cache_dir = 'cache/';
