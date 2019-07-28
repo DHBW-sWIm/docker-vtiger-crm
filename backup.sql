@@ -2615,7 +2615,7 @@ CREATE TABLE `vtiger_crmentity_user_field` (
 
 LOCK TABLES `vtiger_crmentity_user_field` WRITE;
 /*!40000 ALTER TABLE `vtiger_crmentity_user_field` DISABLE KEYS */;
-INSERT INTO `vtiger_crmentity_user_field` VALUES (2,1,'0'),(3,1,'0'),(4,1,'0'),(5,5,'0'),(6,1,'0'),(7,1,'0'),(9,1,'0'),(12,1,'0'),(13,1,'0'),(14,1,'0'),(15,1,'0'),(16,1,'0'),(17,1,'0'),(17,6,'0'),(16,6,'0'),(18,8,'0'),(19,8,'0'),(20,8,'0'),(21,8,'0'),(22,8,'0'),(23,8,'0'),(24,8,'0'),(25,8,'0'),(26,8,'0'),(27,8,'0'),(28,8,'0'),(29,8,'0'),(30,8,'0'),(31,8,'0'),(32,8,'0'),(33,8,'0'),(34,8,'0'),(35,8,'0'),(36,8,'0'),(38,8,'0'),(40,8,'0'),(41,1,'0'),(42,5,'0'),(43,5,'0'),(44,5,'0'),(45,5,'0'),(45,1,'0'),(46,8,'0'),(47,8,'0'),(48,9,'0'),(46,1,'0'),(49,8,'0'),(50,8,'0'),(51,8,'0'),(53,8,'0'),(54,8,'0'),(55,8,'0'),(56,8,'0'),(57,8,'0'),(59,8,'0'),(60,8,'0'),(61,8,'0'),(62,1,'0'),(63,1,'0'),(47,1,'0'),(64,1,'0'),(65,1,'0');
+INSERT INTO `vtiger_crmentity_user_field` VALUES (2,1,'0'),(3,1,'0'),(4,1,'0'),(5,5,'0'),(6,1,'0'),(7,1,'0'),(9,1,'0'),(12,1,'0'),(13,1,'0'),(14,1,'0'),(15,1,'0'),(16,1,'0'),(17,1,'0'),(17,6,'0'),(16,6,'0'),(18,8,'0'),(19,8,'0'),(20,8,'0'),(21,8,'0'),(22,8,'0'),(23,8,'0'),(24,8,'0'),(25,8,'0'),(26,8,'0'),(27,8,'0'),(28,8,'0'),(29,8,'0'),(30,8,'0'),(31,8,'0'),(32,8,'0'),(33,8,'0'),(34,8,'0'),(35,8,'0'),(36,8,'0'),(38,8,'0'),(40,8,'0'),(41,1,'0'),(42,5,'0'),(43,5,'0'),(44,5,'0'),(45,5,'0'),(45,1,'0'),(46,8,'0'),(47,8,'0'),(48,9,'0'),(46,1,'0'),(49,8,'0'),(50,8,'0'),(51,8,'0'),(53,8,'0'),(54,8,'0'),(55,8,'0'),(56,8,'0'),(57,8,'0'),(59,8,'0'),(60,8,'0'),(61,8,'0'),(62,1,'0'),(63,1,'0'),(47,1,'0'),(64,1,'1'),(65,1,'0');
 /*!40000 ALTER TABLE `vtiger_crmentity_user_field` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -7661,7 +7661,7 @@ CREATE TABLE `vtiger_module_dashboard_widgets` (
 
 LOCK TABLES `vtiger_module_dashboard_widgets` WRITE;
 /*!40000 ALTER TABLE `vtiger_module_dashboard_widgets` DISABLE KEYS */;
-INSERT INTO `vtiger_module_dashboard_widgets` VALUES (1,56,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"1\"}',NULL,2,NULL),(5,62,1,NULL,NULL,'null','{\"row\":\"3\",\"col\":\"1\"}',NULL,2,NULL),(6,64,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"2\"}',NULL,2,NULL),(8,59,1,NULL,NULL,'null','{\"row\":\"5\",\"col\":\"1\"}',NULL,2,NULL),(11,57,6,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"1\"}',NULL,4,NULL),(13,56,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"1\"}',NULL,1,NULL),(14,58,1,NULL,NULL,'null','{\"row\":\"4\",\"col\":\"1\"}',NULL,1,NULL),(15,58,1,NULL,NULL,'null','{\"row\":\"4\",\"col\":\"1\"}',NULL,2,NULL),(16,63,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"2\"}',NULL,1,NULL),(17,57,1,NULL,NULL,'null','{\"row\":\"2\",\"col\":\"2\"}',NULL,1,NULL),(19,57,1,NULL,NULL,'null','{\"row\":\"2\",\"col\":\"2\"}',NULL,2,NULL),(20,56,8,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"1\"}',NULL,6,NULL),(23,57,8,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"2\"}',NULL,6,NULL),(24,59,8,NULL,NULL,'null','{\"row\":\"2\",\"col\":\"2\"}',NULL,6,NULL),(25,58,8,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"3\"}',NULL,6,NULL);
+INSERT INTO `vtiger_module_dashboard_widgets` VALUES (1,56,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"1\"}',NULL,2,NULL),(5,62,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"4\"}',NULL,2,NULL),(6,64,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"2\"}',NULL,2,NULL),(8,59,1,NULL,NULL,'null','{\"row\":\"3\",\"col\":\"1\"}',NULL,2,NULL),(11,57,6,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"1\"}',NULL,4,NULL),(13,56,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"1\"}',NULL,1,NULL),(14,58,1,NULL,NULL,'null','{\"row\":\"2\",\"col\":\"2\"}',NULL,1,NULL),(15,58,1,NULL,NULL,'null','{\"row\":\"2\",\"col\":\"2\"}',NULL,2,NULL),(16,63,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"2\"}',NULL,1,NULL),(17,57,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"3\"}',NULL,1,NULL),(19,57,1,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"3\"}',NULL,2,NULL),(20,56,8,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"1\"}',NULL,6,NULL),(23,57,8,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"2\"}',NULL,6,NULL),(24,59,8,NULL,NULL,'null','{\"row\":\"2\",\"col\":\"2\"}',NULL,6,NULL),(25,58,8,NULL,NULL,'null','{\"row\":\"1\",\"col\":\"3\"}',NULL,6,NULL);
 /*!40000 ALTER TABLE `vtiger_module_dashboard_widgets` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -14544,4 +14544,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-07-28 21:05:24
+-- Dump completed on 2019-07-28 21:06:49
