@@ -47,12 +47,16 @@ $HELPDESK_SUPPORT_EMAIL_REPLY_ID = $HELPDESK_SUPPORT_EMAIL_ID;
       db_name
 */
 
-$dbconfig['db_server'] = 'mariadb';
-$dbconfig['db_port'] = ':3306';
-$dbconfig['db_username'] = 'root';
 include 'db_pass.php';
-$dbconfig['db_password'] = $dbpass; 
-$dbconfig['db_name'] = 'vtiger_crm';
+include 'db_user.php';
+include 'db_name.php';
+include 'db_host.php';
+
+$dbconfig['db_server'] = $db_host;
+$dbconfig['db_port'] = ':3306';
+$dbconfig['db_username'] = $db_user;
+$dbconfig['db_password'] = $db_pass;
+$dbconfig['db_name'] = $db_name;
 $dbconfig['db_type'] = 'mysqli';
 $dbconfig['db_status'] = 'true';
 
@@ -87,7 +91,7 @@ include 'hostname.php';
 // url for customer portal (Example: http://vtiger.com/portal)
 $PORTAL_URL = $site_URL.'/customerportal';
 // root directory path
-$root_directory = '/var/www/html/mastercrm-vtiger/';
+$root_directory = '/var/www/html/mastercrm-vtiger';
 
 // cache direcory path
 $cache_dir = 'cache/';

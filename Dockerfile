@@ -1,6 +1,6 @@
 FROM php:7.2-apache
 RUN apt-get update && apt-get install -y git mariadb-client
-COPY * /var/www/html/
+COPY . /var/www/html/mastercrm-vtiger
 RUN cd /var/www/html/
 RUN docker-php-ext-install pdo pdo_mysql mysqli
 RUN a2enmod rewrite
