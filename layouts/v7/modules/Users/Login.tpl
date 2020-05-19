@@ -11,12 +11,11 @@
 {strip}
 	<style>
 		body {
-			background: url(layouts/v7/resources/Images/login-background.jpg);
+			background: url(layouts/v7/resources/Images/vtiger-crm-background.jpg);
 			background-position: center;
 			background-size: cover;
 			width: 100%;
-			height: 100%;
-			min-height: 100%
+			height: 96%;
 			background-repeat: no-repeat;
 		}
 		hr {
@@ -70,6 +69,7 @@
 		.widgetHeight {
 			height: 410px;
 			margin-top: 20px !important;
+			
 		}
 		.loginDiv {
 			width: 380px;
@@ -88,7 +88,7 @@
 			margin-left: 20px;
 		}
 		.user-logo {
-			height: 220px;
+			height: 110px;
 			margin: 0 auto;
 			padding-top: 40px;
 			padding-bottom: 20px;
@@ -125,11 +125,6 @@
 			background-color: #fbfbfb;
 			height:26px;
 		}
-		.app-footer {
-			position: absolute;
-			bottom: 0;
-			width: 100%;
-		}
 		.bar {
 			position: relative;
 			display: block;
@@ -163,7 +158,7 @@
 			-webkit-font-smoothing: antialiased;
 			text-align: center;
 			letter-spacing: 1px;
-			background: #e2001a;
+			background: transparent;
 			border: 0;
 			cursor: pointer;
 			transition: all 0.15s ease;
@@ -172,7 +167,7 @@
 			outline: 0;
 		}
 		.buttonBlue {
-			background-image: #e2001a;
+			background-image: linear-gradient(to bottom, #e2001a 0px, #e2001a 100%)
 		}
 		.ripples {
 			position: absolute;
@@ -207,16 +202,13 @@
 				opacity: 0;
 			}
 		}
-		.transparent{
-			background-color: none;
-		}
 	</style>
 
 	<span class="app-nav"></span>
 	<div class="col-lg-12">
-		<div class="col-lg-4 col-lg-offset-4">
-			<div class="loginDiv">
-				<img class="img-responsive user-logo" src="layouts/v7/resources/Images/vtiger.png">
+		<div class="col-lg-4 col-lg-offset-8">
+			<div class="loginDiv widgetHeight">
+				<img class="img-responsive user-logo" src="layouts/v7/resources/Images/vtiger-crm-logo.jpg">
 				<div>
 					<span class="{if !$ERROR}hide{/if} failureMessage" id="validationMessage">{$MESSAGE}</span>
 					<span class="{if !$MAIL_STATUS}hide{/if} successMessage">{$MESSAGE}</span>
@@ -262,6 +254,10 @@
 					</form>
 				</div>
 			</div>
+		</div>
+
+		<div class="col-lg-1">
+		</div>
 		</div>
 
 		<script>

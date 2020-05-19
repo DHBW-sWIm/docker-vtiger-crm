@@ -12,23 +12,23 @@ $languageStrings = array(
 	'PLVT'                         => 'Top Potentiale'              , 
 	'QLTQ'                         => 'Top Angebote'                , 
 	'CVLVT'                        => 'benutzerdefinierte Listen'   , 
-	'HLT'                          => 'Top Support-Tickets'         , 
+	'HLT'                          => 'Top Support Tickets'         , 
 	'GRT'                          => 'meine Gruppenzugehörigkeit' , 
 	'OLTSO'                        => 'Top Verkaufsbestellungen'    , 
 	'ILTI'                         => 'Top Rechnungen'              , 
-	'HDB'                          => 'Home Cockpit'                , 
+	'HDB'                          => 'Home Dashboard'                , 
 	'OLTPO'                        => 'Top Einkaufsbestellungen'    , 
 	'LTFAQ'                        => 'meine Wissensbasis'          , 
 	'UA'                           => 'aktuelle Aktivitäten'       , 
 	'PA'                           => 'unerledigte Aktivitäten'    , 
-        'Home'                         => 'Dashboard'               ,
+        'Home'                         => 'Dashboard'                  ,
 
-  'LBL_SAVE_ORDER' => 'Bestellung speichern',
-  'LBL_ADD_NEW_DASHBOARD' => 'Fügen Sie ein neues Dashboard hinzu',
-	'LBL_MAX_CHARACTERS_ALLOWED_DASHBOARD' => 'Maximal 30 Zeichen sind für Dashboard-Name erlaubt.',
+  'LBL_SAVE_ORDER' => 'Sparen Bestellen',
+  'LBL_ADD_NEW_DASHBOARD' => 'Fügen Sie neue dashboard',
+	'LBL_MAX_CHARACTERS_ALLOWED_DASHBOARD' => 'Maximal 30 Zeichen sind für Dashboard Namen erlaubt.',
 );
 
 $jsLanguageStrings = array(
-	'JS_TAB_NAME_SHOULD_NOT_BE_EMPTY' => 'Dashboard-Name kann nicht leer sein',
+	'JS_TAB_NAME_SHOULD_NOT_BE_EMPTY' => 'Dashboard-Name kann nicht nicht leer sein',
 	'JS_NO_DATA_AVAILABLE' => 'Keine Daten verfügbar',
 );

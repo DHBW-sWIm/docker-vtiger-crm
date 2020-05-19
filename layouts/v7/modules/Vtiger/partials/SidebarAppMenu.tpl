@@ -19,6 +19,10 @@
 		{assign var=USER_PRIVILEGES_MODEL value=Users_Privileges_Model::getCurrentUserPrivilegesModel()}
 		{assign var=HOME_MODULE_MODEL value=Vtiger_Module_Model::getInstance('Home')}
 		{assign var=DASHBOARD_MODULE_MODEL value=Vtiger_Module_Model::getInstance('Dashboard')}
+		{assign var=ACCOUNTS_MODULE_MODEL value=Vtiger_Module_Model::getInstance('Accounts')}
+		{assign var=LEADS_MODULE_MODEL value=Vtiger_Module_Model::getInstance('Leads')}
+		{assign var=POTENTIALS_MODULE_MODEL value=Vtiger_Module_Model::getInstance('Potentials')}
+		{assign var=CONTACTS_MODULE_MODEL value=Vtiger_Module_Model::getInstance('Contacts')}
 		<div class="app-list row">
 			{if $USER_PRIVILEGES_MODEL->hasModulePermission($DASHBOARD_MODULE_MODEL->getId())}
 				<div class="menu-item app-item dropdown-toggle" data-default-url="{$HOME_MODULE_MODEL->getDefaultUrl()}">
@@ -28,11 +32,43 @@
 					</div>
 				</div>
 			{/if}
+			{if $USER_PRIVILEGES_MODEL->hasModulePermission($LEADS_MODULE_MODEL->getId())}
+				<div class="menu-item app-item dropdown-toggle" data-default-url="{$LEADS_MODULE_MODEL->getDefaultUrl()}">
+					<div class="menu-items-wrapper">
+						<span class="app-icon-list fa fa-users"></span>
+						<span class="app-name textOverflowEllipsis">Potenzielle Studenten</span>
+					</div>
+				</div>
+			{/if}
+			{if $USER_PRIVILEGES_MODEL->hasModulePermission($POTENTIALS_MODULE_MODEL->getId())}
+				<div class="menu-item app-item dropdown-toggle" data-default-url="{$POTENTIALS_MODULE_MODEL->getDefaultUrl()}">
+					<div class="menu-items-wrapper">
+						<span class="app-icon-list fa fa-user"></span>
+						<span class="app-name textOverflowEllipsis"> {vtranslate('Potentials',$MODULE)}</span>
+					</div>
+				</div>
+			{/if}
+			{if $USER_PRIVILEGES_MODEL->hasModulePermission($ACCOUNTS_MODULE_MODEL->getId())}
+				<div class="menu-item app-item dropdown-toggle" data-default-url="{$ACCOUNTS_MODULE_MODEL->getDefaultUrl()}">
+					<div class="menu-items-wrapper">
+						<span class="app-icon-list fa fa-building-o"></span>
+						<span class="app-name textOverflowEllipsis"> {vtranslate('Accounts',$MODULE)}</span>
+					</div>
+				</div>
+			{/if}
+			{if $USER_PRIVILEGES_MODEL->hasModulePermission($CONTACTS_MODULE_MODEL->getId())}
+				<div class="menu-item app-item dropdown-toggle" data-default-url="{$CONTACTS_MODULE_MODEL->getDefaultUrl()}">
+					<div class="menu-items-wrapper">
+						<span class="app-icon-list vicon-leads"></span>
+						<span class="app-name textOverflowEllipsis"> {vtranslate('Contacts',$MODULE)}</span>
+					</div>
+				</div>
+			{/if}
 			{assign var=APP_GROUPED_MENU value=Settings_MenuEditor_Module_Model::getAllVisibleModules()}
 			{assign var=APP_LIST value=Vtiger_MenuStructure_Model::getAppMenuList()}
 			{foreach item=APP_NAME from=$APP_LIST}
 				{if $APP_NAME eq 'ANALYTICS'} {continue}{/if}
-				{if count($APP_GROUPED_MENU.$APP_NAME) gt 1}
+				{if count($APP_GROUPED_MENU.$APP_NAME) gt 0}
 					<div class="dropdown app-modules-dropdown-container">
 						{foreach item=APP_MENU_MODEL from=$APP_GROUPED_MENU.$APP_NAME}
 							{assign var=FIRST_MENU_MODEL value=$APP_MENU_MODEL}
@@ -58,24 +94,6 @@
 								</li>
 							{/foreach}
 						</ul>
-					</div>
-				{elseif count($APP_GROUPED_MENU.$APP_NAME) gt 0}
-					<div class="dropdown app-modules-dropdown-container">
-						{foreach item=APP_MENU_MODEL from=$APP_GROUPED_MENU.$APP_NAME}
-							{assign var=FIRST_MENU_MODEL value=$APP_MENU_MODEL}
-							{if $APP_MENU_MODEL}
-								{break}
-							{/if}
-						{/foreach}
-						<div class="menu-item app-item dropdown-toggle app-item-color-{$APP_NAME}" data-app-name="{$APP_NAME}" id="{$APP_NAME}_modules_dropdownMenu" data-default-url="{$FIRST_MENU_MODEL->getDefaultUrl()}&app={$APP_NAME}">
-							<div class="menu-items-wrapper app-menu-items-wrapper">
-								<span class="app-icon-list fa {$APP_IMAGE_MAP.$APP_NAME}"></span>
-								{foreach item=moduleModel key=moduleName from=$APP_GROUPED_MENU[$APP_NAME]}
-									{assign var='translatedModuleLabel' value=vtranslate($moduleModel->get('label'),$moduleName )}
-									<span class="app-name textOverflowEllipsis"> {strtoupper($translatedModuleLabel)}</span>
-								{/foreach}
-							</div>
-						</div>
 					</div>
 				{/if}
 			{/foreach}

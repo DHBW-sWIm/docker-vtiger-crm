@@ -16,7 +16,6 @@
 /**
  * The configuration file for FHS system
  * is located at /etc/vtigercrm directory.
- * Liam_Test 
  */
 
 include('config.inc.php');

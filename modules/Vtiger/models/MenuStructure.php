@@ -230,7 +230,7 @@ class Vtiger_MenuStructure_Model extends Vtiger_Base_Model {
 	 * @return <array>
 	 */
 	public static function getAppMenuList(){
-		return array('MARKETING','SALES','INVENTORY','SUPPORT','PROJECT','TOOLS');
+		return array('SALES', 'MARKETING', 'INVENTORY', 'SUPPORT', 'PROJECT', 'TOOLS');
 	}
 
 	public static function getAppIcons() {

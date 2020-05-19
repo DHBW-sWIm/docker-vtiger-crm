@@ -72,7 +72,7 @@ Class ChartUtils {
 
 		$font = & $graph->addNew('font', calculate_font_name($lang_crm));
 		$font->setSize(8);
-		$font_color = "#f44242";
+		$font_color = "#000000";
 		$font->setColor($font_color);
 		$graph->setFont($font);
 

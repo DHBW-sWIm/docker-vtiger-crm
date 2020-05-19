@@ -11,7 +11,7 @@
 
 <div class="col-sm-12 col-xs-12 app-indicator-icon-container app-{$SELECTED_MENU_CATEGORY}">
 	<div class="row" title="{if $MODULE eq 'Home' || !$MODULE} {vtranslate('LBL_DASHBOARD')} {else}{$SELECTED_MENU_CATEGORY}{/if}">
-		<span class="app-indicator-icon fa {if $MODULE eq 'Home' || !$MODULE}fa-dashboard{else}{$APP_IMAGE_MAP[$SELECTED_MENU_CATEGORY]}{/if}"></span>
+		<span class="app-indicator-icon {if $MODULE eq 'Home' || !$MODULE}fa fa-dashboard{elseif $MODULE eq 'Leads'}fa fa-users{elseif $MODULE eq 'Accounts'}fa fa-building-o{elseif $MODULE eq 'Contacts'}vicon-leads{elseif $MODULE eq 'Potentials'}fa fa-user{else}{$APP_IMAGE_MAP[$SELECTED_MENU_CATEGORY]}{/if}"></span>
 	</div>
 </div>
 

@@ -197,7 +197,7 @@ body{
 }
 .module-action-bar .module-title{
     font-family: Oswald-bold,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #d30000;
+    color: #596875;
     margin: 8px 15px;
 }
 .app-nav .app-switcher-container{
@@ -258,7 +258,7 @@ body{
     position: absolute;
     border: 0;
     box-shadow: 0px 5px 14px #e2001a;
-    background: #5c6971;
+    background: #2c3b49;
     overflow-y: auto;
     z-index: 10001;
 }

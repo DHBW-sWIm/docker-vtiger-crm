@@ -543,7 +543,7 @@ a.menu-item:hover {
 .active-app-item,
 .app-item:hover {
   opacity: 1;
-  background: #596875;
+  background: #e2001a;
   color: #f2f1f1;
 }
 .app-item-color-MARKETING {
@@ -1561,6 +1561,8 @@ input[type=checkbox]:checked {
   width: 85%;
   text-shadow: none;
   padding: 3px;
+  background: #e2001a;
+  border: #e2001a;
 }
 .relatedContents .listview-table tr.searchRow th.inline-search-btn button {
   width: 95px;

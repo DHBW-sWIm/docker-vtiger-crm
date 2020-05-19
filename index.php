@@ -7,7 +7,7 @@
  * Portions created by vtiger are Copyright (C) vtiger.
  * All Rights Reserved.
  ************************************************************************************/
-// test
+
 //Overrides GetRelatedList : used to get related query
 //TODO : Eliminate below hacking solution
 include_once 'config.php';
