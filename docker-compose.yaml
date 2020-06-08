@@ -1,0 +1,27 @@
+version: '2'
+
+services:
+  mariadb:
+    image: 'bitnami/mariadb:10.3'
+    ports:
+      - '3307:3306'
+    volumes:
+      - './dbVolume:/bitnami/mariadb'
+    environment:
+      - MARIADB_ROOT_PASSWORD=swim-access
+      - MARIADB_DATABASE=vtiger
+      - BITNAMI_DEBUG=true
+  vtiger:
+    build:
+      context: .
+    ports:
+      - '8080:80'
+    volumes:
+      - './:/var/www/html'
+    environment:
+      - MYSQL_HOST=mariadb
+      - MYSQL_DATABASE=vtiger
+      - MYSQL_ROOT_PASSWORD=swim-access
+      - VT_SITE_URL=http://localhost:8080/
+    links:
+      - mariadb

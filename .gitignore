@@ -6,4 +6,3 @@ db_user.php
 dbsbak.sql
 dbVolume
 *.idea
-docker-compose.yaml
