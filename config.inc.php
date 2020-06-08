@@ -30,7 +30,8 @@ ini_set('memory_limit','512M');
 $CALENDAR_DISPLAY = 'true';
 $USE_RTE = 'true';
 
-$site_URL = 'https://vtiger.mastercrm.swimdhbw.de/mastercrm-vtiger';
+include 'site_url.php';
+$site_URL = $site_URL;
 
 
 // helpdesk support email id and support name (Example: 'support@vtiger.com' and 'vtiger support')
@@ -54,7 +55,7 @@ include 'db_host.php';
 
 $dbconfig['db_server'] = $db_host;
 $dbconfig['db_port'] = ':3306';
-$dbconfig['db_username'] = $db_user;
+$dbconfig['db_username'] = 'root';
 $dbconfig['db_password'] = $db_pass;
 $dbconfig['db_name'] = $db_name;
 $dbconfig['db_type'] = 'mysqli';
@@ -87,11 +88,10 @@ $dbconfigoption['ssl'] = false;
 
 $host_name = $dbconfig['db_hostname'];
 
-include 'hostname.php';
 // url for customer portal (Example: http://vtiger.com/portal)
 $PORTAL_URL = $site_URL.'/customerportal';
 // root directory path
-$root_directory = '/var/www/html/mastercrm-vtiger';
+$root_directory = '/var/www/html';
 
 // cache direcory path
 $cache_dir = 'cache/';
@@ -107,7 +107,7 @@ $upload_dir = 'cache/upload/';
 
 // maximum file size for uploaded files in bytes also used when uploading import files
 // upload_maxsize default value = 3000000
-$upload_maxsize = 3145728;//3MB
+$upload_maxsize = 5242880;//3MB
 
 // flag to allow export functionality
 // 'all' to allow anyone to use exports 
@@ -169,7 +169,7 @@ $disable_stats_tracking = false;
 $application_unique_key = '12f2aff28a3a00e93cc81a123f994a67';
 
 // trim descriptions, titles in listviews to this value
-$listview_max_textlength = 40;
+$listview_max_textlength = '40';
 
 // Maximum time limit for PHP script execution (in seconds)
 $php_max_execution_time = 0;

@@ -1,3 +1,9 @@
 db_pass.php
-hostname.php
+site_url.php
+db_host.php
+db_name.php
+db_user.php
+dbsbak.sql
+dbVolume
 *.idea
+docker-compose.yaml
