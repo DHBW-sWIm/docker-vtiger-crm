@@ -81,7 +81,7 @@
 								<div>
 									<b>{$USER->getName()}</b>
 									{if $HISTORY->isRelationLink()}
-										{vtranslate('LBL_ADDED', $MODULE_NAME)}
+										{vtranslate('LBL_ADDEDONE', $MODULE_NAME)}
 									{else}
 										{vtranslate('LBL_REMOVED', $MODULE_NAME)}
 									{/if}
@@ -97,9 +97,9 @@
 								{else}
 									<a class="cursorPointer" {if stripos($LINKED_RECORD_DETAIL_URL, 'javascript:')===0} onclick='{$LINKED_RECORD_DETAIL_URL|substr:strlen("javascript:")}'
 									{else} onclick='window.location.href="{$LINKED_RECORD_DETAIL_URL}"' {/if}>{$RELATION->getLinkedRecord()->getName()}</a>
-							{/if}{vtranslate('LBL_FOR')} <a class="cursorPointer" {if stripos($PARENT_DETAIL_URL, 'javascript:')===0}
+							{/if} {vtranslate('LBL_FOR')} <a class="cursorPointer" {if stripos($PARENT_DETAIL_URL, 'javascript:')===0}
 							   onclick='{$PARENT_DETAIL_URL|substr:strlen("javascript:")}' {else} onclick='window.location.href="{$PARENT_DETAIL_URL}"' {/if}>
-									{$RELATION->getParent()->getParent()->getName()}</a>
+									{$RELATION->getParent()->getParent()->getName()}</a> {vtranslate('LBL_ADDEDTWO', $MODULE_NAME)}
 							</div>
 						{else if $HISTORY->isRestore()}
 							<div>

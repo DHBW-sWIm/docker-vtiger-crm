@@ -162,7 +162,7 @@ class Users_Record_Model extends Vtiger_Record_Model {
      */
     function addDashboardTabs(){
         $db = PearDatabase::getInstance();
-        $tabs = array("1"=>array('name'=>"My Dashboard",'app'=>'','module' =>''));
+        $tabs = array("1"=>array('name'=>"Mein Dashboard",'app'=>'','module' =>''));
         $isDefault = 1;
         foreach($tabs as $seq => $tabName){
             if(is_array($tabName)) {

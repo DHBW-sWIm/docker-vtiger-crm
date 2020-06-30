@@ -1426,7 +1426,7 @@ if(defined('VTIGER_UPGRADE')) {
 	$num_rows = $db->num_rows($result);
 	for ($i=0; $i<$num_rows; $i++) {
 		$rowdata = $db->query_result_rowdata($result, $i);
-		$result1 = $db->pquery('SELECT id FROM vtiger_dashboard_tabs WHERE userid=? AND tabname IN (?, ?)', array($rowdata['userid'], 'My Dashboard', 'Default'));
+		$result1 = $db->pquery('SELECT id FROM vtiger_dashboard_tabs WHERE userid=? AND tabname IN (?, ?)', array($rowdata['userid'], 'Mein Dashboard', 'Default'));
 		if ($db->num_rows($result1) > 0) {
 			$tabid = $db->query_result($result1, 0, 'id');
 			$db->pquery('UPDATE vtiger_module_dashboard_widgets SET dashboardtabid=? WHERE id=? AND userid=?', array($tabid, $rowdata['id'], $rowdata['userid']));

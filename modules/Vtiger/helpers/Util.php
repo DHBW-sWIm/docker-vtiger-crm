@@ -66,8 +66,8 @@ class Vtiger_Util_Helper {
 
 			if ($seconds == 0) return vtranslate('LBL_JUSTNOW');
 			if ($seconds > 0) {
-				$prefix = '';
-				$suffix = ' '. vtranslate('LBL_AGO');
+				$prefix = vtranslate('LBL_VOR') . ' ';
+				$suffix = '';
 			} else if ($seconds < 0) {
 				$prefix = vtranslate('LBL_DUE') . ' ';
 				$suffix = '';

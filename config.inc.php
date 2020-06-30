@@ -30,12 +30,8 @@ ini_set('memory_limit','512M');
 $CALENDAR_DISPLAY = 'true';
 $USE_RTE = 'true';
 
-include 'site_url.php';
-$site_URL = $site_URL;
-
-
 // helpdesk support email id and support name (Example: 'support@vtiger.com' and 'vtiger support')
-$HELPDESK_SUPPORT_EMAIL_ID = 'admin@example.org';
+$HELPDESK_SUPPORT_EMAIL_ID = 'm@m.m';
 $HELPDESK_SUPPORT_NAME = 'your-support name';
 $HELPDESK_SUPPORT_EMAIL_REPLY_ID = $HELPDESK_SUPPORT_EMAIL_ID;
 
@@ -48,16 +44,11 @@ $HELPDESK_SUPPORT_EMAIL_REPLY_ID = $HELPDESK_SUPPORT_EMAIL_ID;
       db_name
 */
 
-include 'db_pass.php';
-include 'db_user.php';
-include 'db_name.php';
-include 'db_host.php';
-
-$dbconfig['db_server'] = $db_host;
+$dbconfig['db_server'] = '127.0.0.1';
 $dbconfig['db_port'] = ':3306';
 $dbconfig['db_username'] = 'root';
-$dbconfig['db_password'] = $db_pass;
-$dbconfig['db_name'] = $db_name;
+$dbconfig['db_password'] = '';
+$dbconfig['db_name'] = 'vtiger';
 $dbconfig['db_type'] = 'mysqli';
 $dbconfig['db_status'] = 'true';
 
@@ -88,10 +79,12 @@ $dbconfigoption['ssl'] = false;
 
 $host_name = $dbconfig['db_hostname'];
 
+$site_URL = 'http://localhost/vtiger';
+
 // url for customer portal (Example: http://vtiger.com/portal)
 $PORTAL_URL = $site_URL.'/customerportal';
 // root directory path
-$root_directory = '/var/www/html';
+$root_directory = 'C:\wamp64\www\vtiger';
 
 // cache direcory path
 $cache_dir = 'cache/';
@@ -107,7 +100,7 @@ $upload_dir = 'cache/upload/';
 
 // maximum file size for uploaded files in bytes also used when uploading import files
 // upload_maxsize default value = 3000000
-$upload_maxsize = 5242880;//3MB
+$upload_maxsize = 3145728;//3MB
 
 // flag to allow export functionality
 // 'all' to allow anyone to use exports 
@@ -166,10 +159,10 @@ $display_empty_home_blocks = false;
 $disable_stats_tracking = false;
 
 // Generating Unique Application Key
-$application_unique_key = '12f2aff28a3a00e93cc81a123f994a67';
+$application_unique_key = 'e6450deb24211f29fc8375c809aed868';
 
 // trim descriptions, titles in listviews to this value
-$listview_max_textlength = '40';
+$listview_max_textlength = 40;
 
 // Maximum time limit for PHP script execution (in seconds)
 $php_max_execution_time = 0;

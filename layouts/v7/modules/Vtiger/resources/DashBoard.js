@@ -639,7 +639,7 @@ Vtiger.Class("Vtiger_DashBoard_Js",{
 			var tabId = tab.data("tabid");
 			var tabName = tab.data("tabname");
 			var message = app.vtranslate('JS_ARE_YOU_SURE_TO_DELETE_DASHBOARDTAB', tabName);
-			app.helper.showConfirmationBox({'message' : message, 'htmlSupportEnable' : false}).then(function(e) {
+			app.helper.showConfirmationBox({'message' : message, 'htmlSupportEnable' : true}).then(function(e) {
 				app.helper.showProgress();
 				var data = {
 					'module' : 'Vtiger',
@@ -805,7 +805,7 @@ Vtiger.Class("Vtiger_DashBoard_Js",{
 			var editEle = currentTarget.find(".editTabName");
 
 			// Lock renaming default dashboard for user (which otherwise would be recreated)
-			if (oldName == "My Dashboard") {
+			if (oldName == "Mein Dashboard") {
 				return;
 			}
 

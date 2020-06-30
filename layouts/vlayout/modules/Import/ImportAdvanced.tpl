@@ -30,7 +30,7 @@
 		<table style=" width:90%;margin-left: 5%" cellpadding="2" cellspacing="12" class="searchUIBasic">
 			<tr>
 				<td class="font-x-large" align="left" colspan="2">
-					<strong>{'LBL_IMPORT'|@vtranslate:$MODULE} {$FOR_MODULE|@vtranslate:$FOR_MODULE}</strong>
+					<strong>{'LBL_IMPORT_small'|@vtranslate:$MODULE} {$FOR_MODULE|@vtranslate:$FOR_MODULE}</strong>
 				</td>
 			</tr>
 			{if $ERROR_MESSAGE neq ''}
