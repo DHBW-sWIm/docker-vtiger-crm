@@ -168,11 +168,11 @@ jQuery.Class("Vtiger_Helper_Js",{
                 }else{
                     buttonsInfo = {
 				cancel: {
-					label: 'No',
+					label: 'Nein',
 					className : 'btn-default confirm-box-btn-pad pull-right'
 				},
 				confirm: {
-					label: 'Yes',
+					label: 'Ja',
 					className : 'confirm-box-ok confirm-box-btn-pad btn-primary'
 				}
                                 }

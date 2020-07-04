@@ -1753,8 +1753,10 @@ Vtiger.Class("Calendar_Calendar_Js", {
 			},
 			getWeekDay: function (date) {
 				var weekDay = date.format('dddd');
-				var label = 'LBL_' + weekDay.toUpperCase();
-				return app.vtranslate(label).toUpperCase();
+				//console.log(weekDay);
+				//var label = 'LBL_' + weekDay.toUpperCase();
+				//return app.vtranslate(label).toUpperCase();
+				return weekDay;
 			},
 			renderHtml: function () {
 				var startDate = moment(this.intervalStart);
@@ -1766,6 +1768,7 @@ Vtiger.Class("Calendar_Calendar_Js", {
 					var date = startDate.add(daysToAdd, 'days').format(dateFormat);
 					var day = this.getCourseDay(startDate);
 					var weekDay = this.getWeekDay(startDate);
+					//var weekDay = date.format('dddd');
 					var part = '' +
 							'<div class="agendaListDay" data-date="' + date + '">' +
 							'<div class="agendaListViewHeader clearfix">' +

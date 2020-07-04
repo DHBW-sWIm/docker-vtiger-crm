@@ -26,11 +26,11 @@ $customviews = Array(Array('viewname'=>'All',
                            'setdefault'=>'1','setmetrics'=>'0','status'=>'0','userid'=>'1',
                            'cvmodule'=>'Accounts','stdfilterid'=>'','advfilterid'=>''),
 
-		     Array('viewname'=>'Prospect Accounts',
+		     Array('viewname'=>'Mögliche Accounts',
                            'setdefault'=>'0','setmetrics'=>'1','status'=>'3','userid'=>'1',
                            'cvmodule'=>'Accounts','stdfilterid'=>'','advfilterid'=>'1'),
 
-		     Array('viewname'=>'New This Week',
+		     Array('viewname'=>'Neu diese Woche',
                            'setdefault'=>'0','setmetrics'=>'0','status'=>'3','userid'=>'1',
                            'cvmodule'=>'Accounts','stdfilterid'=>'1','advfilterid'=>''),
 
@@ -38,11 +38,11 @@ $customviews = Array(Array('viewname'=>'All',
                            'setdefault'=>'1','setmetrics'=>'0','status'=>'0','userid'=>'1',
                            'cvmodule'=>'Contacts','stdfilterid'=>'','advfilterid'=>''),
 
-		     Array('viewname'=>'Contacts Address',
+		     Array('viewname'=>'Kontaktadressen',
                            'setdefault'=>'0','setmetrics'=>'0','status'=>'3','userid'=>'1',
                            'cvmodule'=>'Contacts','stdfilterid'=>'','advfilterid'=>''),
 
-		     Array('viewname'=>'Todays Birthday',
+		     Array('viewname'=>'Heutige Geburtstage',
                            'setdefault'=>'0','setmetrics'=>'0','status'=>'3','userid'=>'1',
                            'cvmodule'=>'Contacts','stdfilterid'=>'2','advfilterid'=>''),
 
@@ -50,7 +50,7 @@ $customviews = Array(Array('viewname'=>'All',
                            'setdefault'=>'1','setmetrics'=>'0','status'=>'0','userid'=>'1',
                            'cvmodule'=>'Potentials','stdfilterid'=>'','advfilterid'=>''),
 
-		     Array('viewname'=>'Potentials Won',
+		     Array('viewname'=>'Gewonnene Bewerber',
                            'setdefault'=>'0','setmetrics'=>'1','status'=>'3','userid'=>'1',
                            'cvmodule'=>'Potentials','stdfilterid'=>'','advfilterid'=>'2'),
 

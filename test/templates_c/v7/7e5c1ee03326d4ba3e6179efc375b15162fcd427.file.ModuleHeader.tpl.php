@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2020-06-29 20:19:46
+<?php /* Smarty version Smarty-3.1.7, created on 2020-07-04 10:45:17
          compiled from "C:\wamp64\www\vtiger\includes\runtime/../../layouts/v7\modules\Reports\ModuleHeader.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:16439624915efa4ce209f011-35222326%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7e5c1ee03326d4ba3e6179efc375b15162fcd427' => 
     array (
       0 => 'C:\\wamp64\\www\\vtiger\\includes\\runtime/../../layouts/v7\\modules\\Reports\\ModuleHeader.tpl',
-      1 => 1593182129,
+      1 => 1593858364,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.7',
+  'unifunc' => 'content_5efa4ce22acc1',
   'variables' => 
   array (
     'MODULE' => 0,
@@ -36,8 +38,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'FIELDS_INFO' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_5efa4ce22acc1',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5efa4ce22acc1')) {function content_5efa4ce22acc1($_smarty_tpl) {?>
 
@@ -45,8 +45,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 " href='<?php echo $_smarty_tpl->tpl_vars['DEFAULT_FILTER_URL']->value;?>
 '><h4 class="module-title pull-left">&nbsp;<?php echo vtranslate($_smarty_tpl->tpl_vars['MODULE']->value,$_smarty_tpl->tpl_vars['MODULE']->value);?>
 &nbsp;</h4></a></span><span><p class="current-filter-name pull-left">&nbsp;<span class="fa fa-angle-right" aria-hidden="true"></span>&nbsp;<?php if ($_smarty_tpl->tpl_vars['VIEW']->value=='Detail'||$_smarty_tpl->tpl_vars['VIEW']->value=='ChartDetail'){?><?php echo $_smarty_tpl->tpl_vars['REPORT_NAME']->value;?>
-<?php }else{ ?><?php echo $_smarty_tpl->tpl_vars['VIEW']->value;?>
-<?php }?>&nbsp;</p></span><?php if ($_smarty_tpl->tpl_vars['VIEWNAME']->value){?><?php if ($_smarty_tpl->tpl_vars['VIEWNAME']->value!='All'){?><?php  $_smarty_tpl->tpl_vars['FOLDER'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['FOLDER']->_loop = false;
+<?php }else{ ?>Liste<?php }?>&nbsp;</p></span><?php if ($_smarty_tpl->tpl_vars['VIEWNAME']->value){?><?php if ($_smarty_tpl->tpl_vars['VIEWNAME']->value!='All'){?><?php  $_smarty_tpl->tpl_vars['FOLDER'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['FOLDER']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['FOLDERS']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['FOLDER']->key => $_smarty_tpl->tpl_vars['FOLDER']->value){
 $_smarty_tpl->tpl_vars['FOLDER']->_loop = true;

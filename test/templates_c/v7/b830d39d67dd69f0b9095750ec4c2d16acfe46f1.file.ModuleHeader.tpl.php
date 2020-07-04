@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2020-06-26 15:24:38
+<?php /* Smarty version Smarty-3.1.7, created on 2020-07-04 10:45:10
          compiled from "C:\wamp64\www\vtiger\includes\runtime/../../layouts/v7\modules\Vtiger\ModuleHeader.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:8988573375ef61336c74b60-21658619%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b830d39d67dd69f0b9095750ec4c2d16acfe46f1' => 
     array (
       0 => 'C:\\wamp64\\www\\vtiger\\includes\\runtime/../../layouts/v7\\modules\\Vtiger\\ModuleHeader.tpl',
-      1 => 1593182144,
+      1 => 1593855910,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.7',
+  'unifunc' => 'content_5ef61336f2da9',
   'variables' => 
   array (
     'MODULE' => 0,
@@ -37,8 +39,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'FIELDS_INFO' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_5ef61336f2da9',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5ef61336f2da9')) {function content_5ef61336f2da9($_smarty_tpl) {?>
 
@@ -60,8 +60,7 @@ $_smarty_tpl->tpl_vars['FILTERS']->_loop = true;
 "><span class="fa fa-angle-right pull-left" aria-hidden="true"></span><a href='<?php echo $_smarty_tpl->tpl_vars['MODULE_MODEL']->value->getListViewUrl();?>
 &viewname=<?php echo $_smarty_tpl->tpl_vars['VIEWID']->value;?>
 &app=<?php echo $_smarty_tpl->tpl_vars['SELECTED_MENU_CATEGORY']->value;?>
-'>&nbsp;&nbsp;<?php echo $_smarty_tpl->tpl_vars['CVNAME']->value;?>
-&nbsp;&nbsp;</a> </p><?php }?><?php $_smarty_tpl->tpl_vars['SINGLE_MODULE_NAME'] = new Smarty_variable(('SINGLE_').($_smarty_tpl->tpl_vars['MODULE']->value), null, 0);?><?php if ($_smarty_tpl->tpl_vars['RECORD']->value&&$_REQUEST['view']=='Edit'){?><p class="current-filter-name filter-name pull-left "><span class="fa fa-angle-right pull-left" aria-hidden="true"></span><a title="<?php echo $_smarty_tpl->tpl_vars['RECORD']->value->get('label');?>
+'>&nbsp;&nbsp;Alle&nbsp;&nbsp;</a> </p><?php }?><?php $_smarty_tpl->tpl_vars['SINGLE_MODULE_NAME'] = new Smarty_variable(('SINGLE_').($_smarty_tpl->tpl_vars['MODULE']->value), null, 0);?><?php if ($_smarty_tpl->tpl_vars['RECORD']->value&&$_REQUEST['view']=='Edit'){?><p class="current-filter-name filter-name pull-left "><span class="fa fa-angle-right pull-left" aria-hidden="true"></span><a title="<?php echo $_smarty_tpl->tpl_vars['RECORD']->value->get('label');?>
 ">&nbsp;&nbsp;<?php echo vtranslate('LBL_EDITING',$_smarty_tpl->tpl_vars['MODULE']->value);?>
  : <?php echo $_smarty_tpl->tpl_vars['RECORD']->value->get('label');?>
  &nbsp;&nbsp;</a></p><?php }elseif($_REQUEST['view']=='Edit'){?><p class="current-filter-name filter-name pull-left "><span class="fa fa-angle-right pull-left" aria-hidden="true"></span><a>&nbsp;&nbsp;<?php echo vtranslate('LBL_ADDING_NEW',$_smarty_tpl->tpl_vars['MODULE']->value);?>

@@ -36,7 +36,7 @@
 							{/if}
 						{/foreach}
 					{/foreach}
-					<p class="current-filter-name filter-name pull-left cursorPointer" title="{$CVNAME}">&nbsp;<span class="fa fa-angle-right pull-left" aria-hidden="true"></span><a href='{$MODULE_MODEL->getListViewUrl()}&viewname={$VIEWID}&app={$SELECTED_MENU_CATEGORY}'>&nbsp;{$CVNAME}&nbsp;</a></p>
+					<p class="current-filter-name filter-name pull-left cursorPointer" title="{$CVNAME}">&nbsp;<span class="fa fa-angle-right pull-left" aria-hidden="true"></span><a href='{$MODULE_MODEL->getListViewUrl()}&viewname={$VIEWID}&app={$SELECTED_MENU_CATEGORY}'>&nbsp;Alle&nbsp;</a></p>
 				{/if}
 
 				{assign var=SINGLE_MODULE_NAME value='SINGLE_'|cat:$MODULE}

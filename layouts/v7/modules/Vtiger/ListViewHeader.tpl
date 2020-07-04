@@ -15,7 +15,7 @@
         <div class="col-lg-4 col-md-4 col-sm-4">
                 <h3 class="module-title pull-left">&nbsp;{vtranslate($MODULE, $MODULE)}&nbsp;</h3>
             <div>
-                <p class="current-filter-name pull-left"><span class="fa fa-chevron-right" aria-hidden="true"></span>&nbsp;{$VIEW}&nbsp;</p>
+                <p class="current-filter-name pull-left"><span class="fa fa-chevron-right" aria-hidden="true"></span>&nbsp;Liste&nbsp;</p>
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4">

@@ -31,7 +31,7 @@
 						{if $VIEW eq 'Detail' or $VIEW eq 'ChartDetail'}
 							{$REPORT_NAME}
 						{else}
-							{$VIEW}
+							Liste
 						{/if}
 						&nbsp;
 					</p>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2020-06-26 16:50:02
+<?php /* Smarty version Smarty-3.1.7, created on 2020-07-04 10:45:17
          compiled from "C:\wamp64\www\vtiger\includes\runtime/../../layouts/v7\modules\Vtiger\Pagination.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:6183643705ef6273a724f83-19155599%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd0863b18dfc16b83f28f4f8363026ce7c31629fa' => 
     array (
       0 => 'C:\\wamp64\\www\\vtiger\\includes\\runtime/../../layouts/v7\\modules\\Vtiger\\Pagination.tpl',
-      1 => 1593182144,
+      1 => 1593848961,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.7',
+  'unifunc' => 'content_5ef6273a8560e',
   'variables' => 
   array (
     'CLASS_VIEW_ACTION' => 0,
@@ -29,8 +31,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'MODULE' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_5ef6273a8560e',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5ef6273a8560e')) {function content_5ef6273a8560e($_smarty_tpl) {?>
 <?php if (!$_smarty_tpl->tpl_vars['CLASS_VIEW_ACTION']->value){?>
@@ -65,7 +65,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 " class="<?php echo $_smarty_tpl->tpl_vars['CLASS_VIEW_PAGING_INPUT']->value;?>
  text-center"/>&nbsp;
                         <button type="button" id="pageToJumpSubmit" class="btn btn-success <?php echo $_smarty_tpl->tpl_vars['CLASS_VIEW_PAGING_INPUT_SUBMIT']->value;?>
- text-center"><?php echo 'GO';?>
+ text-center"><?php echo 'Los';?>
 </button>
                     </div>    
                 </li>

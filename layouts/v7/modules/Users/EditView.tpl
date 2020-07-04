@@ -17,7 +17,7 @@
                         {if $RECORD_ID neq ''}
                             <h4 class="editHeader"  title="{vtranslate('LBL_EDITING', $MODULE)} {vtranslate($SINGLE_MODULE_NAME, $MODULE)} {$RECORD_STRUCTURE_MODEL->getRecordName()}">{vtranslate('LBL_EDITING', $MODULE)} {vtranslate($SINGLE_MODULE_NAME, $MODULE)} - {$RECORD_STRUCTURE_MODEL->getRecordName()}</h4>
                         {else}
-                            <h4 class="editHeader">{vtranslate('LBL_CREATING_NEW', $MODULE)} {vtranslate($SINGLE_MODULE_NAME, $MODULE)}</h4>
+                            <h4 class="editHeader">{vtranslate($SINGLE_MODULE_NAME, $MODULE)} {vtranslate('LBL_CREATING_NEW', $MODULE)}</h4>
                         {/if}
                     </div>
                 </div>
