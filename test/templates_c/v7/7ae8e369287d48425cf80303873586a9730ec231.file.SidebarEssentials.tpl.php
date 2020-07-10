@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2020-06-26 18:40:16
+<?php /* Smarty version Smarty-3.1.7, created on 2020-07-09 13:35:18
          compiled from "C:\wamp64\www\vtiger\includes\runtime/../../layouts/v7\modules\Documents\partials\SidebarEssentials.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:17380500855ef64110207eb5-96154056%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7ae8e369287d48425cf80303873586a9730ec231' => 
     array (
       0 => 'C:\\wamp64\\www\\vtiger\\includes\\runtime/../../layouts/v7\\modules\\Documents\\partials\\SidebarEssentials.tpl',
-      1 => 1593182112,
+      1 => 1594301260,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.7',
+  'unifunc' => 'content_5ef641105aa3e',
   'variables' => 
   array (
     'MODULE' => 0,
@@ -35,8 +37,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'TAG_ID' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_5ef641105aa3e',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5ef641105aa3e')) {function content_5ef641105aa3e($_smarty_tpl) {?>
 <div class="sidebar-menu sidebar-menu-full">
@@ -51,7 +51,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             </div>
             <hr>
             <div>
-                <input class="search-list" type="text" placeholder="Search for List">
+                <input class="search-list" type="text" placeholder="Nach einer Liste suchen">
             </div>
             <div class="menu-scroller mCustomScrollBox" data-mcs-theme="dark">
                 <div class="mCustomScrollBox mCS-light-2 mCSB_inside" tabindex="0">
@@ -174,7 +174,7 @@ $_smarty_tpl->tpl_vars["CUSTOM_VIEW"]->_loop = true;
                     </div>
                     <hr>
                     <div>
-                        <input class="search-folders" type="text" placeholder="Search for Folders">
+                        <input class="search-folders" type="text" placeholder="Nach Ordnern suchen">
                     </div>
                     <div class="menu-scroller mCustomScrollBox" data-mcs-theme="dark">
                         <div class="mCustomScrollBox mCS-light-2 mCSB_inside" tabindex="0">

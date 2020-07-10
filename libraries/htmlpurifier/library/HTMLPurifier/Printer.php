@@ -89,7 +89,7 @@ class HTMLPurifier_Printer
      * @param $value Value
      */
     protected function row($name, $value) {
-        if (is_bool($value)) $value = $value ? 'On' : 'Off';
+        if (is_bool($value)) $value = $value ? 'An' : 'Aus';
         return
             $this->start('tr') . "\n" .
                 $this->element('th', $name) . "\n" .

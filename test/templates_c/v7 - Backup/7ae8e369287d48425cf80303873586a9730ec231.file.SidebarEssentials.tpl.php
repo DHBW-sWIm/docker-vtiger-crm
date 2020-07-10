@@ -174,7 +174,7 @@ $_smarty_tpl->tpl_vars["CUSTOM_VIEW"]->_loop = true;
                     </div>
                     <hr>
                     <div>
-                        <input class="search-folders" type="text" placeholder="Search for Folders">
+                        <input class="search-folders" type="text" placeholder="Nach Ordnern suchen">
                     </div>
                     <div class="menu-scroller mCustomScrollBox" data-mcs-theme="dark">
                         <div class="mCustomScrollBox mCS-light-2 mCSB_inside" tabindex="0">

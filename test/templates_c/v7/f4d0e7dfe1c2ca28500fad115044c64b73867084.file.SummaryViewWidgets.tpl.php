@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2020-06-26 18:57:01
+<?php /* Smarty version Smarty-3.1.7, created on 2020-07-09 11:56:39
          compiled from "C:\wamp64\www\vtiger\includes\runtime/../../layouts/v7\modules\Potentials\SummaryViewWidgets.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:13027081505ef644fda52548-40054051%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f4d0e7dfe1c2ca28500fad115044c64b73867084' => 
     array (
       0 => 'C:\\wamp64\\www\\vtiger\\includes\\runtime/../../layouts/v7\\modules\\Potentials\\SummaryViewWidgets.tpl',
-      1 => 1593182123,
+      1 => 1594295687,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.7',
+  'unifunc' => 'content_5ef644fdc0d09',
   'variables' => 
   array (
     'DETAILVIEW_LINKS' => 0,
@@ -30,8 +32,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'CONTACT_WIDGET_MODEL' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_5ef644fdc0d09',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5ef644fdc0d09')) {function content_5ef644fdc0d09($_smarty_tpl) {?>
 <?php  $_smarty_tpl->tpl_vars['DETAIL_VIEW_WIDGET'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['DETAIL_VIEW_WIDGET']->_loop = false;

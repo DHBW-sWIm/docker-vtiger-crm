@@ -17,7 +17,7 @@
             </div>
             <hr>
             <div>
-                <input class="search-list" type="text" placeholder="Search for List">
+                <input class="search-list" type="text" placeholder="Nach einer Liste suchen">
             </div>
             <div class="menu-scroller mCustomScrollBox" data-mcs-theme="dark">
                 <div class="mCustomScrollBox mCS-light-2 mCSB_inside" tabindex="0">
@@ -105,7 +105,7 @@
                     </div>
                     <hr>
                     <div>
-                        <input class="search-folders" type="text" placeholder="Search for Folders">
+                        <input class="search-folders" type="text" placeholder="Nach Ordnern suchen">
                     </div>
                     <div class="menu-scroller mCustomScrollBox" data-mcs-theme="dark">
                         <div class="mCustomScrollBox mCS-light-2 mCSB_inside" tabindex="0">

@@ -51,11 +51,11 @@
 					{/if}
 					
 					<div class='{$_checkbox_on_class}'>
-					<a href='javascript:void(0);' id='_checkbox_{$_FIELDNAME}_on' onclick="$('include_{$_FIELDNAME}').checked=true;$fnCheckboxOn('_checkbox_{$_FIELDNAME}');">ON</a>
+					<a href='javascript:void(0);' id='_checkbox_{$_FIELDNAME}_on' onclick="$('include_{$_FIELDNAME}').checked=true;$fnCheckboxOn('_checkbox_{$_FIELDNAME}');">An</a>
 					</div>
 					
 					<div class='{$_checkbox_off_class}'>
-					<a href='javascript:void(0);' id='_checkbox_{$_FIELDNAME}_off' onclick="$('include_{$_FIELDNAME}').checked=false;$fnCheckboxOff('_checkbox_{$_FIELDNAME}');">OFF</a>
+					<a href='javascript:void(0);' id='_checkbox_{$_FIELDNAME}_off' onclick="$('include_{$_FIELDNAME}').checked=false;$fnCheckboxOff('_checkbox_{$_FIELDNAME}');">Aus</a>
 					</div>
 					
 					</td>
