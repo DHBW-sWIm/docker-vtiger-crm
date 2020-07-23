@@ -65,7 +65,7 @@ if (isset($_SERVER['HTTP_HOST']) AND (!empty($_SERVER['HTTP_HOST']))) {
 }
 
 /**
- * URL path to tcpdf installation folder (http://localhost/tcpdf/).
+ * URL path to tcpdf installation folder (http://34.70.97.191/tcpdf/).
  * By default it is automatically calculated but you can also set it as a fixed string to improve performances..
  */
 define ('K_PATH_URL', $k_path_url);

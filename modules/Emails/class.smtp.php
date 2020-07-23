@@ -475,7 +475,7 @@ class SMTP {
     // if hostname for HELO was not specified send default
     if(empty($host)) {
       // determine appropriate default to send to server
-      $host = "localhost";
+      $host = "34.70.97.191";
     }
 
     // Send extended hello first (RFC 2821)

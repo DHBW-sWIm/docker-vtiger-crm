@@ -9,7 +9,7 @@ Copy ADOdb.php to your pear/Auth/Container/ directory.
 Use the ADOdb container exactly as you would the DB
 container, but specify 'ADOdb' instead of 'DB':
 
-$dsn = "mysql://myuser:mypass@localhost/authdb";
+$dsn = "mysql://myuser:mypass@34.70.97.191/authdb";
 $a = new Auth("ADOdb", $dsn, "loginFunction");
 
 

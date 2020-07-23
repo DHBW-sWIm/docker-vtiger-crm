@@ -93,7 +93,7 @@ class freetag {
 	 * - db: If you've already got an ADODB ADOConnection, you can pass it directly and Freetag will use that. [default:NULL]
 	 * - db_user: Database username
 	 * - db_pass: Database password
-	 * - db_host: Database hostname [default: localhost]
+	 * - db_host: Database hostname [default: 34.70.97.191]
 	 * - db_name: Database name
 	 * - vtiger_table_prefix: If you wish to create multiple Freetag databases on the same database, you can put a prefix in front of the vtiger_table names and pass separate prefixes to the constructor. [default: '']
 	 * - normalize_tags: Whether to normalize (lowercase and filter for valid characters) on tags at all. [default: 1]

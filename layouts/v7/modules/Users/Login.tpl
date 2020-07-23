@@ -219,18 +219,18 @@
 						<input type="hidden" name="module" value="Users"/>
 						<input type="hidden" name="action" value="Login"/>
 						<div class="group">
-							<input id="username" type="text" name="username" placeholder="Username">
+							<input id="username" type="text" name="username" placeholder="Benutzername">
 							<span class="bar"></span>
-							<label>Username</label>
+							<label>Benutzername</label>
 						</div>
 						<div class="group">
-							<input id="password" type="password" name="password" placeholder="Password">
+							<input id="password" type="password" name="password" placeholder="Passwort">
 							<span class="bar"></span>
-							<label>Password</label>
+							<label>Passwort</label>
 						</div>
 						<div class="group">
-							<button type="submit" class="button buttonBlue">Sign in</button><br>
-							<a class="forgotPasswordLink" style="color: #15c;">forgot password?</a>
+							<button type="submit" class="button buttonBlue">Anmelden</button><br>
+							<a class="forgotPasswordLink" style="color: #15c;">Passwort vergessen?</a>
 						</div>
 					</form>
 				</div>
@@ -238,18 +238,18 @@
 				<div id="forgotPasswordDiv" class="hide">
 					<form class="form-horizontal" action="forgotPassword.php" method="POST">
 						<div class="group">
-							<input id="fusername" type="text" name="username" placeholder="Username" >
+							<input id="fusername" type="text" name="username" placeholder="Benutzername" >
 							<span class="bar"></span>
-							<label>Username</label>
+							<label>Benutzername</label>
 						</div>
 						<div class="group">
-							<input id="email" type="email" name="emailId" placeholder="Email" >
+							<input id="email" type="email" name="emailId" placeholder="E-Mail" >
 							<span class="bar"></span>
-							<label>Email</label>
+							<label>E-Mail</label>
 						</div>
 						<div class="group">
-							<button type="submit" class="button buttonBlue forgot-submit-btn">Submit</button><br>
-							<span>Please enter details and submit<a class="forgotPasswordLink pull-right" style="color: #15c;">Back</a></span>
+							<button type="submit" class="button buttonBlue forgot-submit-btn">Bestätigen</button><br>
+							<span>Bitte Felder befüllen und bestätigen<a class="forgotPasswordLink pull-right" style="color: #15c;">Zurück</a></span>
 						</div>
 					</form>
 				</div>
@@ -286,10 +286,10 @@
 					var result = true;
 					var errorMessage = '';
 					if (username === '') {
-						errorMessage = 'Please enter valid username';
+						errorMessage = 'Bitte gültigen Benutzernamen eingeben';
 						result = false;
 					} else if (password === '') {
-						errorMessage = 'Please enter valid password';
+						errorMessage = 'Bitte gültiges Passwort eingeben';
 						result = false;
 					}
 					if (errorMessage) {
@@ -309,13 +309,13 @@
 					var result = true;
 					var errorMessage = '';
 					if (username === '') {
-						errorMessage = 'Please enter valid username';
+						errorMessage = 'Bitte gültigen Benutzernamen eingeben';
 						result = false;
 					} else if (!emailFilter.test(email1) || email == '') {
-						errorMessage = 'Please enter valid email address';
+						errorMessage = 'Bitte gültige E-Mail eingeben';
 						result = false;
 					} else if (email.match(illegalChars)) {
-						errorMessage = 'The email address contains illegal characters.';
+						errorMessage = 'Die E-Mail enthält nicht erlaubte Zeichen';
 						result = false;
 					}
 					if (errorMessage) {

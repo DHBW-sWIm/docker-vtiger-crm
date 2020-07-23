@@ -289,7 +289,7 @@ other database types as well; all drivers derived from the above are also impact
 
     ``` php
     # we have a memcache servers mem1,mem2 on port 8888, compression=off and cachesecs=120
-    $dsn = 'mysql://user:pwd@localhost/mydb?memcache=mem1,mem2:8888:0&cachesecs=120';
+    $dsn = 'mysql://user:pwd@34.70.97.191/mydb?memcache=mem1,mem2:8888:0&cachesecs=120';
     ```
 
 - Fixed up MetaColumns and MetaPrimaryIndexes() for php 5.3 compat. Thx http://adodb.pastebin.com/m52082b16

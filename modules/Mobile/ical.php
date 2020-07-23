@@ -200,7 +200,7 @@ class Mobile_ICAL {
 
 // To make it easier for subscribing to Calendar via applications we support the
 
-// url format: http://localhost:81/modules/Mobile/ical.php/username@mail.com/password
+// url format: http://34.70.97.191:81/modules/Mobile/ical.php/username@mail.com/password
 
 // Retrieve username and password from the URL
 $pathinfo = $_SERVER['PATH_INFO'];
