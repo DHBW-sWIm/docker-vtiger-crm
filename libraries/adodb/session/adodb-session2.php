@@ -177,7 +177,7 @@ class ADODB_Session {
 	/*!
 	*/
 	static function host($host = null) {
-		static $_host = '34.70.97.191';
+		static $_host = 'localhost';
 		static $set = false;
 
 		if (!is_null($host)) {

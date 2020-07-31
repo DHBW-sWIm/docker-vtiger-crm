@@ -53,7 +53,7 @@ if (!defined('K_TCPDF_EXTERNAL_CONFIG')) {
 	}
 	
 	/**
-	 * URL path to tcpdf installation folder (http://34.70.97.191/tcpdf/).
+	 * URL path to tcpdf installation folder (http://localhost/tcpdf/).
 	 * By default it is automatically calculated but you can also set it as a fixed string to improve performances..
 	 */
 	define ('K_PATH_URL', $site_URL."/libraries/tcpdf/");

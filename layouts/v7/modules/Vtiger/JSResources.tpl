@@ -10,6 +10,8 @@
 ********************************************************************************/
 -->*}
 {strip}
+    <script type="text/javascript" src="layouts/v7/modules/Vtiger/resources/hideCustomField.js"></script>
+	    <script type="text/javascript" src="layouts/v7/modules/Vtiger/resources/hideCustomFieldInBewerber.js"></script>
     <script type="text/javascript" src="layouts/v7/lib/jquery/purl.js"></script>
     <script type="text/javascript" src="layouts/v7/lib/jquery/select2/select2.min.js"></script>
     <script type="text/javascript" src="layouts/v7/lib/jquery/jquery.class.min.js"></script>

@@ -17,7 +17,7 @@ class MyProvider implements ISMSProvider {
 	private $_password;
 	private $_parameters = array();
 	
-	const SERVICE_URI = 'http://34.70.97.191:9898';
+	const SERVICE_URI = 'http://localhost:9898';
 	private static $REQUIRED_PARAMETERS = array('app_id');
 	
 	function __construct() {		

@@ -466,7 +466,7 @@ class SMTP
         if(empty($host)) {
             # we need to determine some sort of appopiate default
             # to send to the server
-            $host = "34.70.97.191";
+            $host = "localhost";
         }
 
         // Send extended hello first (RFC 2821)

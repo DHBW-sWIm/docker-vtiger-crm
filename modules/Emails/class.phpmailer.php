@@ -84,7 +84,7 @@ class PHPMailer {
    * Sets the From email address for the message.
    * @var string
    */
-  public $From              = 'root@34.70.97.191';
+  public $From              = 'root@localhost';
 
   /**
    * Sets the From name of the message.
@@ -201,7 +201,7 @@ class PHPMailer {
   /**
    * Sets the hostname to use in Message-Id and Received headers
    * and as default HELO string. If empty, the value returned
-   * by SERVER_NAME is used or '34.70.97.191.localdomain'.
+   * by SERVER_NAME is used or 'localhost.localdomain'.
    * @var string
    */
   public $Hostname          = '';
@@ -234,7 +234,7 @@ class PHPMailer {
    * Hosts will be tried in order.
    * @var string
    */
-  public $Host          = '34.70.97.191';
+  public $Host          = 'localhost';
 
   /**
    * Sets the default SMTP server port.
@@ -2417,7 +2417,7 @@ class PHPMailer {
   }
 
   /**
-   * Returns the server hostname or '34.70.97.191.localdomain' if unknown.
+   * Returns the server hostname or 'localhost.localdomain' if unknown.
    * @access protected
    * @return string
    */
@@ -2427,7 +2427,7 @@ class PHPMailer {
     } elseif (isset($_SERVER['SERVER_NAME'])) {
       $result = $_SERVER['SERVER_NAME'];
     } else {
-      $result = '34.70.97.191.localdomain';
+      $result = 'localhost.localdomain';
     }
 
     return $result;

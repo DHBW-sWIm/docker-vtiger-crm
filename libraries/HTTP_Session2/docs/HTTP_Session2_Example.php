@@ -47,7 +47,7 @@ ini_set('display_errors', 1);
 HTTP_Session2::setContainer(
     'DB',
     array(
-        'dsn' => 'mysql://root@34.70.97.191/database',
+        'dsn' => 'mysql://root@localhost/database',
         'table' => 'sessiondata'
     )
 );

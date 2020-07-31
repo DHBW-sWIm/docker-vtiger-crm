@@ -14,7 +14,7 @@ class SMSNotifier_MyProvider_Provider implements SMSNotifier_ISMSProvider_Model 
 	private $password;
 	private $parameters = array();
 
-	const SERVICE_URI = 'http://34.70.97.191:9898';
+	const SERVICE_URI = 'http://localhost:9898';
 	private static $REQUIRED_PARAMETERS = array('app_id');
 
 	/**

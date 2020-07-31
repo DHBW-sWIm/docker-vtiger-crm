@@ -20,7 +20,7 @@
  *
  * example:
  *
- * http://34.70.97.191/php/server.php?select+*+from+table&nrows=10&offset=2
+ * http://localhost/php/server.php?select+*+from+table&nrows=10&offset=2
  */
 
 
@@ -34,7 +34,7 @@ $ACCEPTIP = '127.0.0.1';
  * Connection parameters
  */
 $driver = 'mysql';
-$host = '34.70.97.191'; // DSN for odbc
+$host = 'localhost'; // DSN for odbc
 $uid = 'root';
 $pwd = 'garbase-it-is';
 $database = 'test';

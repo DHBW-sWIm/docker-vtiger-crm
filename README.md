@@ -67,6 +67,3 @@ repository as an upstream remote (only need to do this bit once), then you can f
     git fetch upstream
     git merge upstream/master
 
-### Important:
-
-chown -R www-data:www-data /var/www/html/

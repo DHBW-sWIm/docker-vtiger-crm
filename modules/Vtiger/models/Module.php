@@ -2012,6 +2012,26 @@ class Vtiger_Module_Model extends Vtiger_Module {
 		$lowerModuleName = strtolower($moduleName);
 		$title = vtranslate($moduleName, $moduleName);
 
+		if ($moduleName == 'Potentials') {
+			$moduleIcon = "<i class='fa fa-user' style='font-size:23px;' title='$title'></i>";
+			return $moduleIcon;
+		}
+
+		if ($moduleName == 'Leads') {
+			$moduleIcon = "<i class='fa fa-users' style='font-size:23px;' title='$title'></i>";
+			return $moduleIcon;
+		}
+
+		if ($moduleName == 'Accounts') {
+			$moduleIcon = "<i class='fa fa-building-o' style='font-size:23px;' title='$title'></i>";
+			return $moduleIcon;
+		}
+
+		if ($moduleName == 'Contacts') {
+			$moduleIcon = "<i class='vicon-leads' title='$title'></i>";
+			return $moduleIcon;
+		}
+
 		$moduleIcon = "<i class='vicon-$lowerModuleName' title='$title'></i>";
 		if ($this->source == 'custom') {
 			$moduleShortName = mb_substr(trim($title), 0, 2);

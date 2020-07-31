@@ -10,7 +10,7 @@
 {strip}
 	<div class='dashBoardTabContainer'>
 		{include file="dashboards/DashBoardHeader.tpl"|vtemplate_path:$MODULE_NAME DASHBOARDHEADER_TITLE=vtranslate($MODULE, $MODULE)}
-		<br><div class="dashboardBanner"></div>
+		<br>
 		<div class="dashBoardTabContents clearfix">
 			<div class="gridster_{$TABID}">
 				<ul>

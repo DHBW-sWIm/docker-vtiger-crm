@@ -93,7 +93,7 @@ class Zend_Validate_Hostname extends Zend_Validate_Abstract
     const ALLOW_IP    = 2;
 
     /**
-     * Allows local network names (e.g., 34.70.97.191, www.localdomain)
+     * Allows local network names (e.g., localhost, www.localdomain)
      */
     const ALLOW_LOCAL = 4;
 

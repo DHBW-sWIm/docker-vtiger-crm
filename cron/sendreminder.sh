@@ -7,4 +7,4 @@
 # All Rights Reserved.
 #
 # ********************************************************************************
-wget http://34.70.97.191:APACHEPORT/SendReminder.php -O intimatelog.txt
+wget http://localhost:APACHEPORT/SendReminder.php -O intimatelog.txt
